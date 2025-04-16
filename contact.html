@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>My Biography</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body style="background-color: bisque;">
+  <h1><strong>Contact me:</strong></h1>
+
+  <form>
+    <!-- Name -->
+    <label for="name">Name:</label>
+    <input type="text" name="name" id="name" placeholder="Enter your name here" required>
+    <br>
+
+    <!-- Last Name -->
+    <label for="lastname">Last Name:</label>
+    <input type="text" name="lastname" id="lastname" placeholder="Enter your last name here" required>
+    <br>
+
+    <!-- Email -->
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email" placeholder="Enter your email here" required>
+    <br>
+
+    <!-- Gender -->
+    <label>Gender:</label>
+    <br>
+    <input type="radio" name="gender" id="female" value="Female">
+    <label for="female">Female</label>
+    <br>
+    <input type="radio" name="gender" id="male" value="Male">
+    <label for="male">Male</label>
+    <br>
+    <input type="radio" name="gender" id="notsay" value="Rather not say">
+    <label for="notsay">Rather not say</label>
+    <br>
+
+    <!-- Referral -->
+    <label>How did you hear about me?</label>
+    <br>
+    <input type="checkbox" name="referral" id="social" value="Social media">
+    <label for="social">Social media</label>
+    <br>
+    <input type="checkbox" name="referral" id="friends" value="Friends">
+    <label for="friends">Friends</label>
+    <br>
+    <input type="checkbox" name="referral" id="none" value="None of the above">
+    <label for="none">None of the above</label>
+    <br>
+
+    <!-- Message -->
+    <label for="message">Your Message:</label>
+    <br>
+    <textarea id="message" name="message" cols="20" rows="10" placeholder="Type your message here"></textarea>
+    <br>
+
+    <!-- Submit Button -->
+    <input type="submit" value="Send">
+
+    <!-- Extra Note -->
+    <p><strong>Extra Note:</strong><br>
+      If you have issues submitting the form, you can also contact us at 
+      <a href="mailto:ghazalehazimi23@gmail.com">ghazalehazimi23@gmail.com</a>.
+    </p>
+  </form>
+
+</body>
+</html>
